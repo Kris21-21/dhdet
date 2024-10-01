@@ -1,0 +1,14 @@
+.conteiner {
+    column-count: 3;
+    column-width: 300px;
+    column-rule: 3px solid black;
+}
+h1 {
+    column-span: all;
+}
+img {
+    width: 250px;
+}
+figure {
+    break-inside: avoid;
+}
